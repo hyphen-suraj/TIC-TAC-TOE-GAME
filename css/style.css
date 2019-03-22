@@ -1,0 +1,99 @@
+body {width:600px;height:600px;
+border: 2px solid black;
+    position: relative;
+    left: 380px;
+      box-shadow: 5px 10px 18px #888888;
+
+}
+
+
+.heading{
+    font-family:  Georgia;
+    font-size: 28px;
+    position: relative;
+    top: 35px;
+    left: 200px;
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    top: -65px;
+    left: 150px;
+}
+td{
+    height: 80px;
+    width: 100px;
+}
+input{
+    width: 100%;
+    height: 100%; 
+    border: none;
+   color: transparent;
+  text-shadow: 0 0 0 black;
+    
+    
+}
+.score{
+  
+    position: relative;
+    top: -60px;
+    left: 50px;
+    
+    
+    
+}
+.scr_title1,.scr_title2,.scr_title3{
+    
+   height: 50px;
+    width: 170px; 
+    font-family: Georgia;
+    font-size: 20px;
+     
+}
+#score1,#score2,#score3,{
+   
+   height: 50px;
+    width: 100px;
+    
+    
+}
+.player1,.player2,.tie{
+   font-size: 50px;
+    text-align: center;
+}
+.exit{
+    position: relative;
+    top: -84px;
+    left: 80px;
+    height: 90px;
+    width: 140px;
+    background-image: url(/image/quit.png);
+     background-size: 100%
+   
+    
+}
+
+.restart{
+    position: relative;
+    top: -82px;
+    left: 300px;
+    height: 110px;
+    width: 110px;
+    background-image: url(/image/restart.png);
+     background-size: 100%;
+         border:none;
+   
+    
+}
+
+input:focus{
+   outline: none;
+}
+
+.inp_pic0,.inp_pic1,.inp_pic2,.inp_pic3,.inp_pic4,.inp_pic5,.inp_pic6,.inp_pic7,.inp_pic8{
+    background-color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+

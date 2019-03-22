@@ -1,0 +1,19 @@
+body{
+    background-color: #af5b44;
+}
+
+
+input:focus{
+   outline: none;
+}
+td{
+    height: 50px;
+    width: 100px;
+    font-family:  Georgia;
+    font-size: 20px;
+}
+input{
+    width: 150px;
+    text-align: center;
+    height: 20px;
+}
